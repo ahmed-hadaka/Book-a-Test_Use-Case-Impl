@@ -1,14 +1,10 @@
 package lab.booking;
 
-/**
- * Entry point — simulates the "User" actor from the sequence diagram
- * initiating a "book a test" request.
- */
 public class Main {
 
     public static void main(String[] args) {
 
-        // ── Wire up the components (dependency injection) ────────────────────
+        
         Database             db               = new Database();
         AuthenticationService authService     = new AuthenticationServiceImpl();
         BookingProcessor      bookingProcessor = new BookingProcessor(db);
