@@ -1,9 +1,5 @@
-package lab.booking;
+package com.java;
 
-/**
- * Response object returned to the User after a booking attempt.
- * Represents the final "booked successfully" message in the sequence diagram.
- */
 public class BookingResponse {
 
     private final boolean success;
