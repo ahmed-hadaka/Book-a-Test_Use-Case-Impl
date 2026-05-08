@@ -1,4 +1,4 @@
-package lab.booking;
+package com.java;
 
 
 public class Frontend {
